@@ -6,9 +6,14 @@ I take pride in trying to simplify the lives of others. The stock analysis proje
 
 The purpose of the stock analysis is to reuse the already built worksheet and customize it to the needs of Steve’s parents. I am asked to edit the solution for the previous solution to determine whether refactoring my code made the VBA script run faster. I am expected to make the codes more efficient, using less memory, or improving the logic of the code to make it easier for future users to read
 
-## Results: 
+## Results
 
 ### Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
+![VBA_Challenge_2017](https://user-images.githubusercontent.com/115379848/207988822-0166d3e9-fa92-4f1b-9c3b-beb34129089a.png)
+
+
+
+
 
 ## Summary: 
 ### In a summary statement, address the following questions.
