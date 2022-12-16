@@ -94,13 +94,7 @@ Use a for loop to loop through your arrays (tickers, tickerVolumes, tickerStarti
 
 
 ## Summary: 
-
-
-### In a summary statement, address the following questions.
-
-
-
 ### What are the advantages or disadvantages of refactoring code?
-
+The biggest advantage of refactoring code is efficiency of the micro, which decreases in micro run time
 
 ### How do these pros and cons apply to refactoring the original VBA script?
