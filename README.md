@@ -9,7 +9,7 @@ The purpose of the stock analysis is to reuse the already built worksheet and cu
 ## Results
 
 ### Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
-
+![All stock 2017](https://user-images.githubusercontent.com/115379848/207991801-3f92ea2f-75d1-4686-87b1-796ef9a85402.JPG)
 
 
 
