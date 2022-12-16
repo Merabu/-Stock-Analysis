@@ -17,7 +17,7 @@ Create a tickerIndex variable and set it equal to zero before iterating over all
                tickerIndex = 0
                
 
- (this tickerIndex to access the correct index across the four different arrays you’ll be using: the tickers array and the three output arrays you’ll create in Step) 1b.
+ (this tickerIndex to access the correct index across the four different arrays you’ll be using: the tickers array and the three output arrays you’ll create in Step) 
 
 
 Step 1b:
@@ -34,27 +34,41 @@ Step 2a:
 
 Create a for loop to initialize the tickerVolumes to zero.
 
-
-
-Step 2b:
-Create a for loop that will loop over all the rows in the spreadsheet.
-For i = 0 To 11
+ For i = 0 To 11
     
      tickerVolumes(i) = 0
 
-Step 3a:
+Step 2b: Create a for loop that will loop over all the rows in the spreadsheet.
+        For i = 2 To RowCount
+        
+Step 3a:  increases the current tickerVolumes (stock ticker volume) 
 
-Inside the for loop in Step 2b, write a script that increases the current tickerVolumes (stock ticker volume) variable and adds the ticker volume for the current stock ticker.
-Use the tickerIndex variable as the index.
-If you’d like a hint on how to increase the current tickerVolumes by using the tickerIndex variable as the index, that’s totally okay. If not, that’s great too. You can always revisit this later if you change your mind.
 
-HINT
+                   tickerVolumes(tickerIndex) = tickerVolumes(tickerIndex) + Cells(i, 8).Value
+
+
+
+
 Step 3b:
 
-Write an if-then statement to check if the current row is the first row with the selected tickerIndex. If it is, then assign the current starting price to the tickerStartingPrices variable.
+Write an if-then statement to check if the current row is the first row with the selected tickerIndex. If it is, then assign the current starting price to the tickerStartingPrices variable
+
+If Cells(i - 1, 1).Value <> tickers(tickerIndex) And Cells(i, 1).Value = tickers(tickerIndex) Then
+            
+            tickerStartingPrices(tickerIndex) = Cells(i, 6).Value
+        End If
+
+
 Step 3c:
 
 Write an if-then statement to check if the current row is the last row with the selected tickerIndex. If it is, then assign the current closing price to the tickerEndingPrices variable.
+
+If Cells(i + 1, 1).Value <> tickers(tickerIndex) And Cells(i, 1).Value = tickers(tickerIndex) Then
+            
+            tickerEndingPrices(tickerIndex) = Cells(i, 6).Value
+            
+
+
 Step 3d:
 
 If Cells(i - 1, 1).Value <> tickers(tickerIndex) And Cells(i, 1).Value = tickers(tickerIndex) Then
