@@ -84,7 +84,7 @@ Use a for loop to loop through your arrays (tickers, tickerVolumes, tickerStarti
 
 
 ## compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
-
+While looking at the results from the analysis I confirmed that 
 
 
 ![All stock 2017](https://user-images.githubusercontent.com/115379848/207991801-3f92ea2f-75d1-4686-87b1-796ef9a85402.JPG)
@@ -96,13 +96,19 @@ Use a for loop to loop through your arrays (tickers, tickerVolumes, tickerStarti
 ## Summary: 
 ### advantages of refactoring code?
 Logical error easily appear in well structure code
+
 The VBA interpretation code can reveal patterns that are not easily seen in the source
-Refactoring code decreases micro time run
+
+Refactoring code decreases micro time run from 0.679 for 2017 and 0.671 for 2018 to 0.203 and 0.429 respectively
+
+
 ![VBA_Challenge_2017](https://user-images.githubusercontent.com/115379848/208019018-804110b5-509e-446e-b927-63d51991477d.png)
 
 ![VBA_Challenge_2018](https://user-images.githubusercontent.com/115379848/208019027-7a48a29e-842f-4868-b972-ad8c8d5d5d38.png)
 
 ### Disadvantages of refactoring code?
-
+Refactoring can ffect the testing outcome
 
 ### How do these pros and cons apply to refactoring the original VBA script?
+Refactoring helps to make codes cleaner and better data origanized which improves the efficiency of the programmming which becomes easy for our users to view and read.
+Unfortunately due to luck of proper test cases for existing codes we are not get the luxury of doing it.
