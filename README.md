@@ -84,7 +84,9 @@ Use a for loop to loop through your arrays (tickers, tickerVolumes, tickerStarti
 
 
 ## compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
-While looking at the results from the analysis I confirmed that 
+While looking at the results from the analysis I confirmed that Steve's parents will view the stock results quicker in 2017 than 2018 as shown in the screenshot
+![VBA_Challenge_2018](https://user-images.githubusercontent.com/115379848/208025840-6ee5bd73-b9d5-4c77-92d5-bbbbc77a1858.png)
+![VBA_Challenge_2017](https://user-images.githubusercontent.com/115379848/208025850-87a531cc-b3bf-449e-b220-023113842f36.png)
 
 
 ![All stock 2017](https://user-images.githubusercontent.com/115379848/207991801-3f92ea2f-75d1-4686-87b1-796ef9a85402.JPG)
